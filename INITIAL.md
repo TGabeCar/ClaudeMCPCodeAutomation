@@ -1,25 +1,24 @@
 ## PROJECT_SOURCE:
 
-[Provide a GitHub repo URL or a local path to the project. Leave blank to create a new project.]
+C:\Users\Gabe\source\repos\gemini-api-paid-tier-upgrade\ImThatKidAI
 
 ## FEATURE:
 
-Create a dotnet C# winform which allows the user to enter ZPL and view it. It should have every feature which the Labelary.com label viewer has, and use their API.
+Make my text to speech more stable, and more user friendly. Right now it works, but it has some glitches every once in a while, like the stop speech button not working sometimes, or speech not playing, or speech continuing to play when I switch tabs or switch apps. I want the text to speech to always work, and always work well. Analyze the project, and how the test to speech works, and how we can improve it.
 
 ## RELEVANT_CODE:
+
+TTSService.cs - helps control TTS
+MainPage.cs - uses TTS for messages
+SecureSpeechService.cs - helps control TTS
+TutorialService.cs - uses TTS for messages
+ChatRegistrationPage.xaml.cs - uses TTS for messages
 
 ## EXAMPLES:
 
 ## DOCUMENTATION:
 
-https://labelary.com/viewer.html
-
-https://labelary.com/service.html
-
-https://labelary.com/docs.html
-
-https://labelary.com/zpl.html
-
 ## OTHER CONSIDERATIONS:
 
-[Any other considerations or specific requirements]
+Do not lose any existing TTS functionality. It works now, it just is not the most stable.
+Make sure to update the README in the project to document how the TTS works.

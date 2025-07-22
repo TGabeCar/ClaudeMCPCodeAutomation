@@ -26,7 +26,11 @@
       "Bash(dotnet test:*)",
       "Bash(dotnet build:*)",
       "Bash(csc:*)",
-      "Bash(dotnet run)"
+      "Bash(dotnet run)",
+      "Bash(powershell:*)",
+      "Bash(rmdir:*)",
+      "Bash(dotnet clean:*)",
+      "Bash(dotnet restore:*)"
     ],
     "deny": []
   }
