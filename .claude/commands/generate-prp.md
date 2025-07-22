@@ -14,11 +14,11 @@ The AI agent only gets the context you are appending to the PRP and training dat
    - READ: INITIAL.md or $ARGUMENTS - The feature request
    - READ: PRPs/templates/prp_base.md - PRP structure template
 
-2. **Codebase Analysis**
-   - Search for similar features/patterns in the .NET codebase
-   - Identify projects, services, and controllers to reference in PRP
-   - Note existing .NET conventions to follow
-   - Check test patterns for validation approach
+2. **Focused Codebase Analysis** 🎯
+   - Use the file and directory paths from the `RELEVANT_CODE` section as your primary search area.
+   - Analyze these specific areas to identify projects, services, patterns, and conventions to reference in the PRP.
+   - Note existing .NET conventions to follow from this focused context.
+   - If the provided paths are insufficient, you may explore parent or related directories, but always prioritize the specified context.
 
 3. **External Research**
    - Search for similar .NET features/patterns online
@@ -36,6 +36,7 @@ Using PRPs/templates/prp_base.md as template:
 
 ### Critical Context to Include and pass to the AI agent as part of the PRP
 - **Project Source**: Copy the `PROJECT_SOURCE` section from the feature file (`$ARGUMENTS`) directly into the PRP. This is critical for the `execute-prp` command.
+- **Relevant Code**: Copy the `RELEVANT_CODE` list from the feature file into the PRP so the executor AI also knows where to focus.
 - **Documentation**: Microsoft Docs URLs with specific sections
 - **Code Examples**: Real C# snippets from codebase
 - **Gotchas**: .NET library quirks, version issues, nullable reference types
