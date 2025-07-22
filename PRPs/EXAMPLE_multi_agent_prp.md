@@ -79,7 +79,7 @@ A full-stack .NET application where:
 │   └── Program.cs
 ├── PRPs/
 │   └── templates/
-│       └── prp_base.md
+│       └── prp_base_claude.md
 ├── INITIAL.md
 ├── CLAUDE.md
 └── MyProject.sln

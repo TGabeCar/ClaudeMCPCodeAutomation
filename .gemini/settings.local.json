@@ -1,0 +1,38 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(grep:*)",
+      "Bash(ls:*)",
+      "Bash(find:*)",
+      "Bash(mv:*)",
+      "Bash(mkdir:*)",
+      "Bash(tree:*)",
+      "Bash(touch:*)",
+      "Bash(cat:*)",
+      "Bash(cp:*)",
+      "Bash(rm:*)",
+      "Bash(git:*)",
+      
+      "Bash(dotnet:*)",
+      "Bash(dotnet new:*)",
+      "Bash(dotnet add:*)",
+      "Bash(dotnet build:*)",
+      "Bash(dotnet test:*)",
+      "Bash(dotnet run:*)",
+      "Bash(dotnet restore:*)",
+      "Bash(dotnet format:*)",
+      "Bash(dotnet ef:*)",
+      
+      "Bash(xcopy:*)",
+      "Bash(robocopy:*)",
+      "Bash(csc:*)",
+      
+      "WebFetch(domain:docs.microsoft.com)",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:stackoverflow.com)",
+      "WebFetch(domain:nuget.org)"
+    ],
+    "deny": []
+  },
+  "defaultTimeout": 30
+}

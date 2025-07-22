@@ -1,0 +1,11 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\.claude",
+    "\\.claude\\commands",
+    "\\PRPs",
+    "\\PRPs\\templates"
+  ],
+  "SelectedNode": "\\.claude\\commands\\execute-prp.md",
+  "PreviewInSolutionExplorer": false
+}

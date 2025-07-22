@@ -1,4 +1,4 @@
-# Create .NET PRP
+# Create .NET PRP for Gemini CLI
 
 ## Feature file: $ARGUMENTS
 
@@ -9,15 +9,15 @@ The AI agent only gets the context you are appending to the PRP and training dat
 ## Research Process
 
 1. **Read Project Context**
-   - READ: CLAUDE.md - Global rules and conventions
+   - READ: GEMINI.md - Global rules and conventions
    - READ: README.md - Project overview and setup
    - READ: INITIAL.md or $ARGUMENTS - The feature request
-   - READ: PRPs/templates/prp_base_claude.md - PRP structure template
+   - READ: PRPs/templates/prp_base_gemini.md - PRP structure template
 
 2. **Focused Codebase Analysis** 🎯
    - Use the file and directory paths from the `RELEVANT_CODE` section as your primary search area.
    - Analyze these specific areas to identify projects, services, patterns, and conventions to reference in the PRP.
-   - Note existing .NET conventions to follow from this focused context.
+   - Note existing conventions to follow from this focused context.
    - If the provided paths are insufficient, you may explore parent or related directories, but always prioritize the specified context.
 
 3. **External Research**
@@ -27,23 +27,23 @@ The AI agent only gets the context you are appending to the PRP and training dat
    - Best practices and common .NET pitfalls
 
 4. **User Clarification** (if needed)
-   - Specific .NET patterns to mirror and where to find them?
+   - Specific patterns to mirror and where to find them?
    - Integration requirements and where to find them?
 
 ## PRP Generation
 
-Using PRPs/templates/prp_base_claude.md as template:
+Using PRPs/templates/prp_base_gemini.md as template:
 
 ### Critical Context to Include and pass to the AI agent as part of the PRP
 - **Project Source**: Copy the `PROJECT_SOURCE` section from the feature file (`$ARGUMENTS`) directly into the PRP. This is critical for the `execute-prp` command.
 - **Relevant Code**: Copy the `RELEVANT_CODE` list from the feature file into the PRP so the executor AI also knows where to focus.
-- **Documentation**: Microsoft Docs URLs with specific sections
-- **Code Examples**: Real C# snippets from codebase
-- **Gotchas**: .NET library quirks, version issues, nullable reference types
-- **Patterns**: Existing .NET approaches to follow
+- **Documentation**: Official documentation URLs with specific sections
+- **Code Examples**: Real code snippets from codebase
+- **Gotchas**: Language/framework library quirks, version issues, common pitfalls
+- **Patterns**: Existing approaches to follow
 
 ### Implementation Blueprint
-- Start with pseudocode showing C# approach
+- Start with pseudocode showing language-appropriate approach
 - Reference real projects and files for patterns
 - Include error handling strategy
 - List tasks to be completed to fulfill the PRP in the order they should be completed
@@ -77,6 +77,6 @@ Save as: `PRPs/{feature-name}.md`
 - [ ] NuGet package dependencies identified
 - [ ] Project structure defined
 
-Score the PRP on a scale of 1-10 (confidence level to succeed in one-pass implementation using claude codes)
+Score the PRP on a scale of 1-10 (confidence level to succeed in one-pass implementation using Gemini CLI)
 
 Remember: The goal is one-pass implementation success through comprehensive .NET context.
