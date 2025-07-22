@@ -30,7 +30,9 @@
       "Bash(powershell:*)",
       "Bash(rmdir:*)",
       "Bash(dotnet clean:*)",
-      "Bash(dotnet restore:*)"
+      "Bash(dotnet restore:*)",
+      "WebFetch(domain:www.philschmid.de)",
+      "Bash(dir)"
     ],
     "deny": []
   }
