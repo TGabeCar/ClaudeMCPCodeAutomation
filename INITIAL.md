@@ -1,19 +1,24 @@
 ## PROJECT_SOURCE:
 
-[Provide a GitHub repo URL or a local path to the project. Leave blank to create a new project.]
+C:\Users\Gabe\source\repos\ImThatKidAI\GeminiService.cs
+C:\Users\Gabe\source\repos\ImThatKidAI-SecurityFunctions\GeminiProxyFunction.cs
 
 ## FEATURE:
 
-[Insert your feature here]
+I want to fix the Gemini API call to use the paid version rather than the free version. I want the cheapest version that will still achieve my goal. I want to keep all existing functionality, but 
+
+## RELEVANT_CODE:
+
+GeminiService.cs
+GeminiProxyFunctions.cs
 
 ## EXAMPLES:
 
-[Provide and explain examples that you have in the `examples/` folder]
-
 ## DOCUMENTATION:
 
-[List out any documentation (Microsoft Docs, NuGet packages, etc.) that will need to be referenced]
+https://ai.google.dev/gemini-api/docs
+https://ai.google.dev/gemini-api/docs/pricing
 
 ## OTHER CONSIDERATIONS:
 
-[Any other considerations or specific requirements]
+I want to keep all existing functionality and my prompt building system, but if you see areas which can be improved, like for efficiency or error handling, you can implement those changes.

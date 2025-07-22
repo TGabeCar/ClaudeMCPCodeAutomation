@@ -47,6 +47,9 @@ Implement a feature using the PRP file for .NET applications.
    - Execute the PRP
    - Implement all the C# code, projects, and configurations
 
+4a. **Compact Context** 🧠
+    - To conserve tokens for the next steps, run the `/compact` command to summarize the implementation phase before validation.
+
 5. **Validate**
    - Run each validation command (dotnet build, dotnet test, etc.)
    - Fix any compilation errors or test failures
